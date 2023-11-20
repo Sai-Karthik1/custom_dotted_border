@@ -24,7 +24,7 @@ class CustomDottedBorder extends StatelessWidget {
   final PathBuilder? customPath;
   final StackFit stackFit;
 
-  CustomDottedBorder({super.key,
+  CustomDottedBorder({
     required this.child,
     this.color = Colors.black,
     this.strokeWidth = 1,
